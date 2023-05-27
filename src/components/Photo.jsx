@@ -50,7 +50,7 @@ function App() {
     const formData = new FormData();
     formData.append('image', image);
 
-    const response = await fetch('http://127.0.0.1:5000/ocr', {
+    const response = await fetch('https://9bb0-102-186-95-127.ngrok-free.app/ocr', {
       method: 'POST',
       body: formData,
     });
