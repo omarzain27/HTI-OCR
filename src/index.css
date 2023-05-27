@@ -1,0 +1,158 @@
+
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Montserrat' , source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/***** theme customize *****/
+:root{
+  --main-color: #1A64A1;
+  --seconde-color: #32383e;
+  --color-text: #fff;
+  --btn-main-color: #272729;
+}
+
+.badge-color {
+  background-color: var(--seconde-color);
+}
+
+/***** End theme customize *****/
+
+/***** Global *****/
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+body {
+  font-family: "Montserrat", cursive;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgba(33,37,41);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", cursive;
+  color: var(--color-text) !important;
+}
+
+a,
+p,
+span {
+  color: inherit !important;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+  color: #09c !important;
+  transition: color 0.5s;
+}
+
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--seconde-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 50px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
+}
+/***** End Global *****/
+
+/***** Start Home *****/
+header img{
+  max-height: 300px;
+  object-position: 0 62%;
+  object-fit: cover;
+  /* max-height: 30vh; */
+  /* object-fit: cover; */
+  /* object-position: center center; */
+  /* height: 100%;
+  width: 100%; */
+  /* background-image: url("../images/hti-Image.jpeg");
+  background-position: center center;
+  background-size: cover; */
+}
+nav {
+  background-color: rgb(58, 73, 123) !important;
+  margin: auto;
+  margin-top: -1% !important;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+  position: relative;
+}
+.navbar-brand-custom{
+  position: absolute;
+  padding: 1% !important;
+}
+
+@media (max-width:1000px) {
+  .navbar-brand-custom{
+      position: relative;
+      /* display: none; */
+  }
+}
+
+.OCR{
+  font-weight: bold;
+
+}
+
+.box{
+  /* margin: 0 10px; */
+  /* padding: 10px 0px; */
+  /* width: 25%; */
+  font-size: 22px;
+  height: 100px;
+  /* color: #252628; */
+  background-color: #6c757d;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .sma {
+    font-size: 22px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .sma {
+    font-size: 22px;
+  }
+}
+.box i{
+  color: rgba(13,110,253);
+  font-size: 30px;
+}
+/***** End Home *****/
