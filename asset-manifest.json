@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HTI-OCR/static/css/main.f258b746.css",
-    "main.js": "/HTI-OCR/static/js/main.d70d4ffc.js",
+    "main.js": "/HTI-OCR/static/js/main.edaa2fdc.js",
     "static/js/787.30882570.chunk.js": "/HTI-OCR/static/js/787.30882570.chunk.js",
     "static/media/fa-solid-900.ttf": "/HTI-OCR/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/HTI-OCR/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/HTI-OCR/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/HTI-OCR/index.html",
     "main.f258b746.css.map": "/HTI-OCR/static/css/main.f258b746.css.map",
-    "main.d70d4ffc.js.map": "/HTI-OCR/static/js/main.d70d4ffc.js.map",
+    "main.edaa2fdc.js.map": "/HTI-OCR/static/js/main.edaa2fdc.js.map",
     "787.30882570.chunk.js.map": "/HTI-OCR/static/js/787.30882570.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f258b746.css",
-    "static/js/main.d70d4ffc.js"
+    "static/js/main.edaa2fdc.js"
   ]
 }
